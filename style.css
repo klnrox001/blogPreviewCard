@@ -3,12 +3,12 @@ body {
 }
 .generalContainer { 
     background-color: #FFFFFF;
-    margin-top: 20%;
-    margin-bottom: 20%;
+    margin-top: 12%;
+    margin-bottom: 12%;
     position: relative;
     padding: 20px;
     border-radius: 20px;
-    border: 1px, solid;
+    border: 2px, solid;
     box-shadow: 8px 8px black;
     margin-right: auto;
     margin-left: auto;
@@ -27,20 +27,20 @@ body {
 }
 a {
     font-family: figtree;
-    font-weight: 700;
-    font-size: 25px;
+    font-weight: 800;
+    font-size: 1.4em;
     color:black;
     text-decoration: none;
 }
 a:hover {
     color:#F5D04E;
 }
-h3 { 
+h2 { 
     font-family: figtree;
     font-weight: 500;
     font-size: 0.9375em;
 }
-h4 { 
+h3 { 
     font-family: figtree;
     font-weight: 800;
     font-size: 0.8750em;
@@ -83,4 +83,17 @@ h1 {
         height:12.5625em;
         object-fit:cover;
     }
+}
+.attribution {
+    font-family: figtree;
+    color: black; 
+    text-align: center;
+    font-weight: 300;
+
+}
+#attributionLink {
+    font-family: figtree;
+    color: #313131;  
+    font-size: medium;
+    font-weight: 500;
 }
